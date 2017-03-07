@@ -1,0 +1,33 @@
+<idea-plugin version="2">
+  <id>com.coursehero.hodor</id>
+  <name>Hodor</name>
+  <version>1.0.0</version>
+  <vendor email="@haripaddu" url="https://github.com/course-hero/hodor">@haripaddu</vendor>
+
+  <description><![CDATA[
+      <h2>Hodor live templates for Hodor front-end framework</h2>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <dl>
+        <dt>No changes so far...</dt>
+        <dd></dd>
+      </dl>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="107.105"/>
+
+  <!-- please see http://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products -->
+  <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+      <defaultLiveTemplatesProvider implementation="com.coursehero.hodor.HodorTemplatesProvider" />
+  </extensions>
+
+</idea-plugin>

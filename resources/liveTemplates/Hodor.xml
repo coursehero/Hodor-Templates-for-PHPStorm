@@ -1,0 +1,182 @@
+<templateSet group="Hodor">
+  <template name="&lt;hodorPrimaryButton&gt;" value="&lt;a href=&quot;&quot; class=&quot;primaryButton&quot;&gt;Button Text&lt;/a&gt;" description="Primary Action Button" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorDefaultPanel&gt;" value="&lt;div class=&quot;panel&quot;&gt;&#10;    &#10;&lt;/div&gt;" description="Default Panel Styling" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInputEmail&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;Email Address&quot;&gt;&#10;    &lt;input class=&quot;formInput&quot; type=&quot;email&quot; name=&quot;email&quot; placeholder=&quot;e.g., hero@coursehero.com&quot;/&gt;&#10;&lt;/label&gt;" description="Email input" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInputPassword&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;Password&quot;&gt;&#10;    &lt;input class=&quot;formInput&quot; type=&quot;password&quot; name=&quot;password&quot; placeholder=&quot;Type your Password&quot;/&gt;&#10;&lt;/label&gt;" description="Password input" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorSelectDropdown&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;Select&quot;&gt;&#10;    &lt;select class=&quot;formInput&quot;&gt;&#10;        &lt;option value=&quot;1&quot;&gt;Option 1&lt;/option&gt;&#10;        &lt;option value=&quot;2&quot;&gt;Option 2&lt;/option&gt;&#10;        &lt;option value=&quot;3&quot;&gt;Option 3&lt;/option&gt;&#10;    &lt;/select&gt;&#10;&lt;/label&gt;" description="Select Dropdown" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorRadioButton&gt;" value="&lt;div class=&quot;formField&quot; data-title=&quot;Radio Button Choice&quot;&gt;&#10;    &lt;div class=&quot;grid_noGutter&quot;&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;radioBox&quot;&gt;&#10;                &lt;input type=&quot;radio&quot; name=&quot;radio button&quot;&gt;&#10;                &lt;span&gt;Choice 1&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;radioBox&quot;&gt;&#10;                &lt;input type=&quot;radio&quot; name=&quot;radio button&quot;&gt;&#10;                &lt;span&gt;Choice 2&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Radio button" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInputText&gt;" value="&lt;label class=&quot;formField&quot; data-title=&quot;Label&quot;&gt;&#10;    &lt;input class=&quot;formInput&quot; type=&quot;text&quot; name=&quot;text&quot; placeholder=&quot;Type something...&quot;/&gt;&#10;&lt;/label&gt;" description="Text input" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorContainer&gt;" value="&lt;div class=&quot;container&quot;&gt;&#10;    &#10;&lt;/div&gt;" description="Page Container" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorToggleSwitch&gt;" value="&lt;div class=&quot;formField&quot; data-title=&quot;Toggle Switch&quot;&gt;&#10;    &lt;label class=&quot;toggleSwitch&quot;&gt;&#10;        &lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot;&gt;&#10;        &lt;span&gt;Toggle Button Text&lt;/span&gt;&#10;    &lt;/label&gt;&#10;&lt;/div&gt;" description="Toggle Switch" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorSecondaryButtonLevel1&gt;" value="&lt;a href=&quot;&quot; class=&quot;secondaryButton1&quot;&gt;Button Text&lt;/a&gt;" description="Secondary Action Button Level 1" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorSecondaryButtonLevel2&gt;" value="&lt;a href=&quot;&quot; class=&quot;secondaryButton2&quot;&gt;Button Text&lt;/a&gt;" description="Secondary Action Button Level 2" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTertiaryButtonLevel2&gt;" value="&lt;a href=&quot;&quot; class=&quot;tertiaryButton2&quot;&gt;Button Text&lt;/a&gt;" description="Tertiary Action Button Level 2" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;HodorGhostButtonLevel1&gt;" value="&lt;a href=&quot;&quot; class=&quot;ghostButton1&quot;&gt;Button Text&lt;/a&gt;" description="Ghost Action Button Level 1" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;HodorCheckBox&gt;" value="&lt;div class=&quot;formField&quot; data-title=&quot;Checkbox Choice&quot;&gt;&#10;    &lt;div class=&quot;grid5_noBottom phone2&quot;&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;checkBox&quot;&gt;&#10;                &lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot;&gt;&#10;                &lt;span&gt;Choice 1&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;        &lt;div class=&quot;column&quot;&gt;&#10;            &lt;label class=&quot;checkBox&quot;&gt;&#10;                &lt;input type=&quot;checkbox&quot; name=&quot;checkbox&quot;&gt;&#10;                &lt;span&gt;Choice 2&lt;/span&gt;&#10;            &lt;/label&gt;&#10;        &lt;/div&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Checkbox input" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTable&gt;" value="&lt;div class=&quot;tableWrapper&quot;&gt;&#10;    &lt;table&gt;&#10;    &#9;&lt;tr&gt;&#10;    &#9;&#9;&lt;th&gt;Column Heading&lt;/th&gt;&#10;    &#9;&#9;&lt;th&gt;Column Heading&lt;/th&gt;&#10;    &#9;&lt;/tr&gt;&#10;    &#9;&lt;tr&gt;&#10;    &#9;&#9;&lt;td&gt;Column Text&lt;/td&gt;&#10;    &#9;&#9;&lt;td&gt;Column Text&lt;/td&gt;&#10;    &#9;&lt;/tr&gt;&#10;    &lt;/table&gt;&#10;&lt;/div&gt;" description="Table" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorBadge&gt;" value="&lt;span class=&quot;badge&quot;&gt;Data&lt;/span&gt;" description="Badge" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorStatusLabel&gt;" value="&lt;span class=&quot;label&quot;&gt;Status&lt;/span&gt;" description="Status Label" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTags&gt;" value="&lt;a href=&quot;#&quot; class=&quot;tags&quot;&gt;Tag name&lt;/a&gt;" description="Action Tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInlineTag&gt;" value="&lt;span class=&quot;tags&quot;&gt;Tag Name &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;ch-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;" description="Inline Tags" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorProgressBarLinear&gt;" value="&lt;div class=&quot;progressBar&quot;&gt;&#10;    &lt;span style=&quot;width: 60%&quot; data-tooltip=&quot;60%&quot;&gt;&lt;/span&gt;&#10;&lt;/div&gt;" description="Linear Progress bar" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorWizardProgress1&gt;" value="&lt;div class=&quot;wizardProgress1&quot;&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;1&quot; class=&quot;isProgressed&quot;&gt;Step 1&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;2&quot; class=&quot;isProgressed&quot;&gt;Step 2&lt;/a&gt;&#10;    &lt;a data-step=&quot;3&quot; class=&quot;isCurrent&quot;&gt;Step 3&lt;/a&gt;&#10;    &lt;a data-step=&quot;4&quot;&gt;Step 4&lt;/a&gt;&#10;&lt;/div&gt;" description="Wizard Progress Bar Level 1" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorWizardProgress2&gt;" value="&lt;div class=&quot;wizardProgress2&quot;&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;1&quot; class=&quot;isProgressed&quot;&gt;&lt;span&gt;Step 1&lt;/span&gt;&lt;/a&gt;&#10;    &lt;a href=&quot;#&quot; data-step=&quot;2&quot; class=&quot;isProgressed&quot;&gt;&lt;span&gt;Step 2&lt;/span&gt;&lt;/a&gt;&#10;    &lt;a data-step=&quot;3&quot; class=&quot;isCurrent&quot;&gt;&lt;span&gt;Step 3&lt;/span&gt;&lt;/a&gt;&#10;    &lt;a data-step=&quot;4&quot;&gt;&lt;span&gt;Step 4&lt;/span&gt;&lt;/a&gt;&#10;&lt;/div&gt;" description="Wizard Progress Bar Level 2" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorInlinePrompt&gt;" value="&lt;div class=&quot;inlinePrompt&quot; data-icon=&quot;&quot;&gt;&#10;&#9;&lt;h6&gt;Prompt Heading&lt;/h6&gt;&#10;&#9;&lt;p&gt;Prompt Message&lt;/p&gt;&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;closeAction&quot;&gt;&lt;i class=&quot;ch-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/div&gt;" description="Inline Prompt" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorFloaterPrompt&gt;" value="&lt;div class=&quot;floaterPrompt slideInUp&quot; data-icon=&quot;&quot;&gt;&#10;&#9;Prompt Message&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;closeAction&quot;&gt;&lt;i class=&quot;ch-remove&quot;&gt;&lt;/i&gt;&lt;/a&gt;&#10;&lt;/div&gt;" description="Floater Prompt" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorDropdownButton&gt;" value="&lt;div class=&quot;buttonDropdown&quot;&gt;&#10;    &lt;a href=&quot;#&quot; class=&quot;secondaryButton1&quot; data-right-icon=&quot;&quot;&gt;Button Text&lt;/a&gt;&#10;    &lt;div class=&quot;buttonDropdownMenu&quot;&gt;&#10;        &lt;a href=&quot;#&quot;&gt;Link 1&lt;/a&gt;&#10;        &lt;a href=&quot;#&quot;&gt;Link 2&lt;/a&gt;&#10;        &lt;span&gt;Group&lt;/span&gt;&#10;        &lt;a href=&quot;#&quot;&gt;Link 1&lt;/a&gt;&#10;        &lt;a href=&quot;#&quot;&gt;Link 2&lt;/a&gt;&#10;    &lt;/div&gt;&#10;&lt;/div&gt;" description="Dropdown Button" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorGroupButton&gt;" value="&lt;div class=&quot;buttonGroup&quot;&gt;&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;secondaryButton1 isHighlighted&quot;&gt;Button Text&lt;/a&gt;&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;secondaryButton1&quot;&gt;Button Text&lt;/a&gt;&#10;&#9;&lt;a href=&quot;#&quot; class=&quot;secondaryButton1&quot;&gt;Button Text&lt;/a&gt;&#10;&lt;/div&gt;" description="Button groups" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTabLevel1&gt;" value="&lt;ul class=&quot;tabNav isLevel1&quot;&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;isSelected&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Tabs Level 1" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTabLevel2&gt;" value="&lt;ul class=&quot;tabNav isLevel2&quot;&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;isSelected&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;" description="Tabs Level 2" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorTabLevel3&gt;" value="&lt;ul class=&quot;tabNav isLevel3&quot;&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot; class=&quot;isSelected&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&#9;&lt;li&gt;&lt;a href=&quot;#&quot;&gt;Link&lt;/a&gt;&lt;/li&gt;&#10;&lt;/ul&gt;&#10;&lt;section class=&quot;tabContent isLevel3&quot;&gt;&#10;&#9;&#10;&lt;/section&gt;" description="Tabs Level 3" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+  <template name="&lt;hodorAutoGrid&gt;" value="&lt;div class=&quot;grid&quot;&gt;&#10;&#9;&lt;div class=&quot;column&quot;&gt;&#10;&#9;&#10;&#9;&lt;/div&gt;&#10;&#9;&lt;div class=&quot;column&quot;&gt;&#10;&#9;&#10;&#9;&lt;/div&gt;&#10;&#9;&lt;div class=&quot;column&quot;&gt;&#10;&#9;&#10;&#9;&lt;/div&gt;&#10;&lt;/div&gt;" description="Auto Grid" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="Twig" value="true" />
+    </context>
+  </template>
+</templateSet>
